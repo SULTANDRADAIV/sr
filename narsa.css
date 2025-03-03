@@ -289,6 +289,7 @@ h1:hover {
   text-align: center;
   z-index: 9998;
   user-select: none;
+  margin-top: 250px;
 }
 
 
@@ -302,7 +303,6 @@ h1:hover {
   justify-content: center;
   align-items: center;
   margin: 20px;
-
 }
 
 #cards:hover > .card::after {
@@ -621,6 +621,7 @@ h2:hover {
   align-items: center;
   cursor: none;
   user-select: none;
+  margin-bottom: 250px;
 }
 .cardes-container {
   margin-bottom: 160px;
@@ -1051,5 +1052,34 @@ h6:hover {
 
 .info-box-content > p {
   color: rgb(255 255 255 / 75%);
-  line-height: 1.5rem;
+  line-height: 1.75rem;
+}
+
+.gallery{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  user-select: none;
+  position: absolute;
+  height: 1vh;
+  margin-top: 165px;
+}
+
+#image-track {
+  gap: 4vmin;
+  position: absolute;
+  user-select: none;
+  left: 50%;
+  top: 50%;
+  transform: translate(0%, -50%); 
+  user-select: none;
+  display: flex;
+}
+
+#image-track > .image {
+  width: 40vmin;
+  height: 56vmin;
+  object-fit: cover;
+  object-position: 100% center;
 }
